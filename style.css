@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{ 
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.icon{
+    width: 40px;
+    position: absolute;
+    left: 12.5%;
+    cursor: pointer;
+}
+.firstsection h1{
+    cursor: pointer;
+}
+.firstsection__one{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+
+.firstsection__two{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.firstsection__two i{
+     margin-top: 10px;
+}
+.firstsection__two p{
+    margin-top: 10px;
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    border: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.secondsection h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: 800; 
+}
+
+.thirdsection{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 25px;
+}
+.thirdsection p{
+    cursor: pointer;
+}
+.fourthsection{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 370px;
+    position: sticky;
+    top: 11%;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.fourthsection input{
+    border: none;
+    width: 100%; 
+    font-size: 16px; 
+    background-color: transparent;
+    border-color: black solid 2px;
+}
+
+.fourthsection input:hover{
+    outline: none;
+}
+.fourthsection button{
+    background-color: rgb(109, 249, 109);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.bgimage{
+    margin-top: 3%;
+    
+} 
+.bg{
+    width: 70%;
+    height: 400px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.bgtext{
+  text-align: start;
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  padding: 10px;
+
+  z-index: 1;
+}
+.bgtext h1{
+    font-size: 60px;
+}
+.bgtext p{
+    margin-top: 10px;
+}
+.bgtext button{
+    background-color:white;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.fifthsection{
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 14%;
+}
+.beachcard{
+    display: flex;
+    width: 80%;
+    height: 250px;
+    overflow: auto;
+    padding: 10px;
+    gap: 30px;
+}
+
+.beachcard img{
+    width: 100%;
+    border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.beachcard img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.sixthsection{
+    margin-top: 20px;
+    padding: 10px; 
+    margin-left: 14%;
+}
+.sixthsection__container{
+    display: flex;
+    padding-bottom: 10px;
+    overflow-x: auto;
+    gap: 30px;
+    width: 80%;
+}
+
+.keralacard{
+    width: 35%;
+    
+    flex-shrink: 0; 
+}
+.keralacard img{
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.keralacard img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.keralapic h2,p{
+    margin-top: 10px;
+}
+
+
+.seventhcection{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: bisque;
+}
+
+.seventhcection h1{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.seventhcection__container{
+    margin-left: 14%;
+    display: flex;
+    text-align: center;
+    overflow-x: auto;
+    gap: 40px;
+    width: 80%;
+}
+
+.explorecard{
+    height: 40%;
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.explorepic img{
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 250px;
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+.explorepic img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* Award section */
+
+.awardsection{
+    margin-top: 20px;
+    position: relative;
+   
+}
+.awardsection__img{
+    height: 100%;
+    width: 100%;
+}
+.awardsection__img img{
+    height: 400px;
+    width: 100%;
+}
+.awardsection__text{
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    color: white;
+}
+
+.awardsection__text p{
+    margin-top: 10px;
+    color: white;
+}
+.awardsection__text button{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer section  */
+.footersection{
+    margin-top: 10px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    display: flex;
+    gap: 30px;
+}
+
+.footer__one p{
+    margin: 20px;
+    
+}
+.footer__two{
+    display: flex;
+  justify-content: center;
+}
+.footer__two img{
+    width: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 4%;
+    cursor: pointer;
+}
+
+/* Media Query */
+
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .firstsection__one{
+        display: none;
+    }
+    .firstsection h1{
+        margin-left: 8%;
+    }
+    .fourthsection{
+        margin-left: 20%;
+    }
+    .keralapic img{
+        height: 80%;
+        width: 100% ;
+    }
+}
+@media screen and (max-width:800px) {
+
+    .firstsection h1{
+        margin-left: 15%;
+    }
+
+    .fourthsection{
+        margin-left: 25%;
+    }
+}
